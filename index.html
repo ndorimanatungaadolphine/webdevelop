@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope haven Christian School</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    body{
+        font-family:Arial, Helvetica, sans-serif ;
+        background-color: antiquewhite;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding: 15px;
+    }
+    
+    header img {
+        width: 150px;
+        height: 80px;
+        object-fit: contain;
+        
+    }
+    .header-text {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    nav{
+        background-color: darkgreen;
+        padding: 15px;
+        text-align: center;
+    }
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+            padding: 18px;
+            position: relative;
+        }
+        nav a:hover{
+            color: yellow;
+            border-color: brown;
+        }
+                  
+     
+        .school img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+
+        }
+        .welcome{
+            text-align: center;
+            padding: 30px;
+            
+
+        }
+        .welcome p{
+            font-size: 20px;
+            line-height: 1.8;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .content{
+            display: flex;
+            justify-content: space-around;
+            padding: 25px;
+            gap: 20px;
+        }
+        .content div{
+            background-color: white;
+            padding: 20px;
+            width: 30%;
+            border: 1px solid lightgreen;
+        }
+        h2 {
+            color: darkgreen;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        ul, ol {
+            padding-left: 20px;
+            line-height: 2;
+
+        }
+    table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: white;
+
+    }
+    th,td {
+        border: 1px solid black;
+        padding: 12px;
+        text-align: left;
+    
+    }
+
+    th {
+        background-color: lightgreen;
+
+    }
+
+    footer {
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .login {
+        position: relative;
+        right: 0;
+        top: 1;
+        background-color: beige;
+        color: black;
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+    
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+        <h1> Hope haven Christian school</h1>
+        <p> Learn . Practice . Excel</p>
+    </div>
+        <img src="banner.jpeg" alt="school logo" width="70">
+    </header>
+
+    <nav> 
+    <a href="#"> Home</a>
+     <a href="#"> About</a>
+     <a href="#">Academics</a>
+     <a href="#">Programs</a>
+     <a href="#">Gallery</a>
+     <a href="#">Contact</a>
+     <button class="login">LOGIN</button>
+    </nav>
+
+    <section class="school">  
+    <img class="school" src="banner.jpg" alt=" school students">
+</section>
+
+<section>
+    <h2> Welcome to our school</h2>
+
+    <p>Hope Haven Christian School is committed to providing quality education
+        with a strong foundation in Christ values, Technology and Innovation
+
+    </p>
+</section>
+
+ <section class="content"> 
+<div>
+    <h2>Key features</h2>
+    <ul>
+    <li> Quality education</li>
+    <li> Skilled Teacher</li>
+    <li> Modern Labs</li>
+    <li> Christian Values</li>
+    </ul>
+    
+</div>
+
+<div> 
+    <h2> Our Programs</h2>
+    <ol>
+        <li>Software Development</li>
+        <li>Networking & Cyber security</li>
+        <li> Robotics & TOT</li>
+        <li> Entreprenuership</LI>
+    </ol>
+</div>
+
+<div> 
+    <h2> School Information</h2>
+    <table border="2">
+        <tr>
+            <th>Name</th>
+            <th> Information</th>
+        </tr>
+        <tr>
+        <td>School Name </td> <td>Hope Haven </td>
+        </tr>
+        <tr> 
+            <td>Location</td><td> Kigali Rwanda</td>
+        </tr>
+        <tr> 
+            <td>Founded</td><td> 2011</td>
+        </tr>
+        <tr> 
+            <td> Motto</td> <td> Learn. Practice. Excel</td>
+        </tr>
+    </table>
+</div>
+ </section>
+
+ <footer> 
+    <p>
+        &copy: 2026 Hope Haven Christian School. All rights Reserved.
+    </p>
+    <p> Contact: info@hopehavenschool.org</p>
+ </footer>
+
+</body>
+</html>
